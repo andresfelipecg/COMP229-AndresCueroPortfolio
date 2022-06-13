@@ -1,9 +1,13 @@
 {
   "name": "andres-cuero-portfolio",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "private": true,
   "scripts": {
     "start": "node ./server.js"
+  },
+  "engines": {
+    "node": "^16.15.1",
+    "npm": "^8.12.1"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.1.1",
@@ -16,5 +20,18 @@
     "jquery": "^3.6.0",
     "morgan": "~1.9.1",
     "popper.js": "^1.16.1"
-  }
+  },
+  "description": "demo app for comp229 Andres Cuero",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andresfelipecg/COMP229-AndresCueroPortfolio.git"
+  },
+  "author": "Andres Cuero",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andresfelipecg/COMP229-AndresCueroPortfolio/issues"
+  },
+  "homepage": "https://github.com/andresfelipecg/COMP229-AndresCueroPortfolio#readme"
 }
